@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Work+Sans:wght@300&display=swap');
+
+.alert{
+    width:100%;
+    padding: 1.5rem;
+}
+
+.alert-success{
+    background: var(--SUCCESS-BACKGROUND_COLOR);
+    color: var(--SUCCESS-COLOR);
+}
+
+.alert-danger{
+    background: var(--DANGER-BACKGROUND_COLOR);
+    color: var(--DANGER-COLOR);
+}
+
+.alert-warning{
+    background: var(--WARNING-BACKGROUND_COLOR);
+    color: var(--WARNING-COLOR);
+}
+
+.alert-info{
+    background: var(--INFO-BACKGROUND_COLOR);
+    color: var(--INFO-COLOR);
+}
