@@ -1,0 +1,23 @@
+.avatar-sm{
+    height: 2rem;
+    width: 2rem;
+}
+
+.avatar-m{
+    height: 4rem;
+    width: 4rem;
+}
+
+.avatar-l{
+    height: 6rem;
+    width: 6rem;
+}
+
+.avatar-xl{
+    height: 8rem;
+    width: 8rem;
+}
+
+.avatar-rounded{
+    border-radius: 50%;
+}
