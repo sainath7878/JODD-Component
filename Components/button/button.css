@@ -1,0 +1,55 @@
+.btn{
+    color: var(--BACKGROUND-COLOR);
+    padding: 1rem;
+    border-radius: 1rem;
+    border:none;
+    min-width: 15rem;
+    cursor: pointer;
+    background: var(--SECONDARY-COLOR);
+}
+
+.btn-primary{
+    background-color: var(--PRIMARY-COLOR);
+}
+
+.btn-danger{
+    background-color: var(--DANGER-COLOR);
+}
+
+.btn-danger:hover{
+    background-color: #f53737;
+}
+
+.btn-primary:hover{
+    background-color: #120808d1;
+}
+
+.btn-primary-outline{
+    color: var(--PRIMARY-COLOR);
+    background-color: var(--BACKGROUND-COLOR);
+    border: 1px solid var(--PRIMARY-COLOR);
+}
+
+.btn-danger-outline{
+    color: var(--DANGER-COLOR);
+    background-color: var(--BACKGROUND-COLOR);
+    border: 1px solid var(--DANGER-COLOR);
+}
+
+.btn-danger-outline:hover{
+    background-color: var(--DANGER-COLOR);
+    color: var(--BACKGROUND-COLOR);
+}
+
+.btn-primary-outline:hover{
+    background-color: var(--PRIMARY-COLOR);
+    color: var(--BACKGROUND-COLOR);
+}
+
+.btn-icon{
+    color: var(--BACKGROUND-COLOR);
+    width: 2rem;
+    height: 2rem;
+    filter: invert(100%) sepia(0%) saturate(1270%) hue-rotate(112deg) brightness(114%) contrast(101%);
+    margin-right: 1rem;
+}
