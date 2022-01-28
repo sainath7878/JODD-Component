@@ -1,0 +1,56 @@
+.fs-xl{
+    font-size: 4rem;
+}
+
+.fs-m{
+    font-size: 2rem;
+}
+
+.fs-ml{
+    font-size: 2.5rem;
+}
+
+.fs-l{
+    font-size: 3rem;
+}
+
+.fs-s{
+    font-size: 1.5rem;
+}
+
+.mb-2{
+    margin-bottom: 2rem;
+}
+
+.mb-4{
+    margin-bottom: 4rem;
+}
+
+.mr-2{
+    margin-right: 2rem;
+}
+
+.fix-top{
+    position: fixed;
+    top: 0;
+}
+
+.d-flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flex-inline-center{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-inline-block{
+    display: inline-block;
+}
+
+.d-flex-wrap{
+    flex-wrap: wrap;
+}
