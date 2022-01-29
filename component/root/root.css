@@ -27,3 +27,7 @@ a{
 button{
     border: none;
 }
+
+img{
+    object-fit: cover;
+}

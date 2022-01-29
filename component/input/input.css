@@ -1,0 +1,45 @@
+.error-style {
+    color: var(--DANGER-COLOR);
+}
+
+.form{
+    border: thin solid var(--PRIMARY-COLOR);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.form > label{
+    display: inline-block;
+}
+
+.form > *{
+    margin-bottom: 1rem;
+}
+
+.form-input{
+    display: block;
+    width: 60%;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid gray;
+}
+
+.error-border {
+    border: 2px solid var(--DANGER-COLOR);
+}
+
+.form-input:focus {
+    outline: none;
+    border: 2px solid var(--SECONDARY-COLOR);
+    box-shadow: 0px 1px 10px 1px var(--PRIMARY-COLOR);
+}
+
+.textarea{
+    width: 50%;
+}
+
+.textarea:focus{
+    outline: none;
+    border: 2px solid var(--SECONDARY-COLOR);
+    box-shadow: 0px 1px 10px 1px var(--PRIMARY-COLOR);
+}
