@@ -87,6 +87,7 @@
     width: 60%;
     min-height: 20rem;
     border: 2px solid var(--PRIMARY-COLOR);
+    position: relative;
 }
 
 .horizontal-card-image {
