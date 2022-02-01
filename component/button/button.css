@@ -16,7 +16,7 @@
     background-color: var(--DANGER-COLOR);
 }
 
-.btn-seconday{
+.btn-secondary{
     background-color: var(--SECONDARY-COLOR);
 }
 
@@ -28,7 +28,7 @@
     background-color: #120808d1;
 }
 
-.btn-seconday:hover{
+.btn-secondary:hover{
     background-color: #c247f3;
 }
 
