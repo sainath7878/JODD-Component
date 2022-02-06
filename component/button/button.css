@@ -7,6 +7,10 @@
     cursor: pointer;
 }
 
+.no-border-radius{
+    border-radius: 0;
+}
+
 .btn-primary{
     background-color: var(--PRIMARY-COLOR);
 }
