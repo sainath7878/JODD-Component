@@ -32,3 +32,46 @@
 .nav-link:hover{
     color: var(--SECONDARY-COLOR);
 }
+
+@media only screen and (max-width: 768px){
+
+    .nav-link{
+        margin-right: 1rem;
+    }
+
+    .nav-searchbar{
+        display: none;
+    }
+
+    .nav-searchbar-res{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .nav-search{
+        display: none;
+    }
+
+    .nav-searchbar-res > input{
+        transition: 0.3s ease;
+    }
+
+    .nav-searchbar-res > input:focus{
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width: 500px) {
+    html{
+        font-size: 50%;
+    }
+
+    ul .nav-link{
+        display: none;
+    }
+
+    .mobile-view{
+        display: block;
+    }
+}
