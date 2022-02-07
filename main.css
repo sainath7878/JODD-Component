@@ -8,3 +8,6 @@
 @import "./component/card/card.css";
 @import "./component/image/image.css";
 @import "./component/input/input.css";
+@import "./component/text-utilities/text-utilities.css";
+@import "./component/navigation/navigation.css";
+
