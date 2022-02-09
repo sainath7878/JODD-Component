@@ -62,6 +62,15 @@
     color: var(--SECONDARY-COLOR)
 }
 
+.cta-container{
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.cta-container > a:hover{
+    color: var(--SECONDARY-COLOR);
+}
+
 /* --------text only card ------------  */
 
 .text-only-card {
