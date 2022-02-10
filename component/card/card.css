@@ -102,7 +102,6 @@
 .horizontal-card {
     display: flex;
     flex-direction: row;
-    width: 60%;
     min-height: 20rem;
     border: 2px solid var(--PRIMARY-COLOR);
     position: relative;
@@ -148,6 +147,7 @@
 
 @media only screen and (max-width: 600px){
     .card{
-        max-width: 30rem;
+        max-width: 40rem;
+        margin: 2rem auto;
     }
 }
