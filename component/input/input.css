@@ -7,9 +7,12 @@
 }
 
 .form{
+    width: 100%;
+    max-width: 50rem;
     border: thin solid var(--PRIMARY-COLOR);
     padding: 2rem;
     box-shadow: 0px 1px 10px 1px var(--INPUT-BOX-SHADOW-COLOR);
+    border-radius: 5px;
 }
 
 .form > label{
@@ -22,9 +25,9 @@
 
 .form-input{
     display: block;
-    width: 60%;
+    width: 100%;
     padding: 1rem;
-    border-radius: 1rem;
+    border-radius: 5px;
     border: 1px solid gray;
 }
 
@@ -35,7 +38,7 @@
 .form-input:focus {
     outline: none;
     border: 2px solid var(--SECONDARY-COLOR);
-    box-shadow: 0px 1px 10px 1px var(--INPUT-BOX-SHADOW-COLOR);
+    box-shadow: 0px 1px 5px 1px var(--INPUT-BOX-SHADOW-COLOR);
 }
 
 .textarea{
@@ -45,5 +48,5 @@
 .textarea:focus{
     outline: none;
     border: 2px solid var(--SECONDARY-COLOR);
-    box-shadow: 0px 1px 10px 1px var(--INPUT-BOX-SHADOW-COLOR);
+    box-shadow: 0px 1px 5px 1px var(--INPUT-BOX-SHADOW-COLOR);
 }

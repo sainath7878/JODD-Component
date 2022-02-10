@@ -3,7 +3,8 @@
     padding: 1rem;
     border-radius: 1rem;
     border:none;
-    max-width: 15rem;
+    width: 10rem;
+    max-width: 20rem;
     cursor: pointer;
 }
 
