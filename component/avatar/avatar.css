@@ -1,3 +1,7 @@
+:root{
+    --AVATAR-BACKGROUND-COLOR: #e5e7eb;
+}
+
 .avatar-sm{
     height: 2rem;
     width: 2rem;
@@ -19,5 +23,6 @@
 }
 
 .avatar-rounded{
+    background-color: var(--AVATAR-BACKGROUND-COLOR);
     border-radius: 50%;
 }
