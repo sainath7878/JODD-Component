@@ -5,6 +5,7 @@
     width: fit-content;
     padding: 0.5rem 2rem;
     z-index: 5;
+    min-width: 30rem;
 }
 
 .snackbar-btn{
