@@ -1,0 +1,50 @@
+.lists{
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.styled-lists > li{
+    padding-bottom: 1rem;
+    margin-left: 1.5rem;
+}
+
+.unstyled-lists > li{
+    padding-bottom: 1rem;
+}
+
+.list-style-square{
+    list-style: square;
+}
+
+.list-style-circle{
+    list-style: circle;
+}
+
+.list-style-smalphabets{
+    list-style: lower-alpha;
+}
+
+.list-style-lgalphabets{
+    list-style: upper-alpha;
+}
+
+.list-style-smroman{
+    list-style: lower-roman;
+}
+
+.list-style-lgroman{
+    list-style: upper-roman;
+}
+
+.list-style-none{
+    list-style: none;
+}
+
+.list-inline-item{
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.stacked-list > li:not(:last-child){
+    margin-bottom: 4rem;
+}
