@@ -1,0 +1,24 @@
+.rating{
+    display: flex;
+    flex-direction: row-reverse;
+    gap:1rem;
+    justify-content: flex-end;
+}
+
+.rating input{
+    display: none;
+}
+
+.rating label{
+    color: var(--SIDE-NAVBAR-COLOR);
+    cursor: pointer;
+}
+
+.rating :checked ~ label{
+    color: var(--SECONDARY-COLOR);
+}
+
+.rating label:hover,
+.rating label:hover ~ label {
+  color: var(--RATING-HOVER-COLOR);
+}
