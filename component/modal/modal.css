@@ -1,0 +1,39 @@
+.modal{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    width: 60%;
+    background-color: var(--MODAL-BACKGROUND-COLOR);
+    padding: 2rem;
+}
+
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 2px solid var(--SECONDARY-COLOR);
+    padding-bottom: 1rem;
+}
+
+.modal-header > .btn{
+    background-color: transparent;
+    color: var(--PRIMARY-COLOR);
+}
+
+.modal > p {
+    line-height: 1.5;
+     border-bottom: 2px solid var(--SECONDARY-COLOR);
+     padding-bottom: 1rem;
+}
+
+.modal-demo{
+    position: relative;
+    top: 25%;
+    left: 30%;
+}
+
+.modal-cta{
+    margin-left: auto;
+}
