@@ -12,5 +12,8 @@
 @import "./component/navigation/navigation.css";
 @import "./component/lists/lists.css";
 @import "./component/snackbar/snackbar.css";
+@import "./component/modal/modal.css";
+@import "./component/rating/rating.css";
+
 
 
