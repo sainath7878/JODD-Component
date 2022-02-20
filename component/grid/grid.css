@@ -1,0 +1,16 @@
+.grid-two-layout{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.grid-three-layout{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.grid-item{
+    padding: 2rem;
+    background-color: var(--SIDE-NAVBAR-COLOR);
+    color: var(--PRIMARY-COLOR);
+    border: 0.5px solid var(--PRIMARY-COLOR);
+}
