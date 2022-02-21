@@ -2,12 +2,12 @@
     appearance: none;
     background-color: var(--SECONDARY-COLOR);
     border-radius: 10px;
-    width: 200px; 
+    width: 20rem; 
     height: 8px;
 }
 
 .slider-disabled > input{
-    width: 200px;
+    width: 20rem;
 }
 
 .slider-disabled > i {
@@ -17,8 +17,8 @@
 input[type=range]::-webkit-slider-thumb {
     -webkit-appearance: none;
     border: none;
-    height: 20px;
-    width: 20px;
+    height: 2rem;
+    width: 2rem;
     border-radius: 50%;
     background: var(--BACKGROUND-COLOR);
     margin-top: -2px;

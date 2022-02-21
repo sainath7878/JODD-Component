@@ -19,6 +19,8 @@ This repo contains the css of all the components used in [JODD UI](https://githu
 - Toast/Snackbar
 - Modal
 - Rating
+- Grid
+- Slider
 
 ## Used By
 
