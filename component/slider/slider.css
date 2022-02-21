@@ -1,0 +1,26 @@
+.slider-enabled > input{
+    appearance: none;
+    background-color: var(--SECONDARY-COLOR);
+    border-radius: 10px;
+    width: 20rem; 
+    height: 8px;
+}
+
+.slider-disabled > input{
+    width: 20rem;
+}
+
+.slider-disabled > i {
+    color: var(--SIDE-NAVBAR-COLOR)
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background: var(--BACKGROUND-COLOR);
+    margin-top: -2px;
+    box-shadow: 1px 1px 1px var(--PRIMARY-COLOR), 0px 0px 1px var(--PRIMARY-COLOR); 
+}
